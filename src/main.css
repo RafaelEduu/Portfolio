@@ -331,13 +331,13 @@ main p {
 
 @media (max-width: 768px) {
   li {
-    width: 50%;
+    width: 100%;
   }
 }
 
 @media (max-width: 1024px) {
   li {
-    width: 50%;
+    width: 55%;
   }
 
   #Redessociais1 {
