@@ -78,11 +78,12 @@ a:link {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  max-width: 100%;
   text-align: center;
   background-color: #1a1a1b;
   box-shadow: 1px 0px 4px rgb(39, 112, 134);
   height: 60px;
+  width: 100%
 }
 
 .informações {
@@ -161,6 +162,7 @@ img {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  width: 100%
 }
 
 #imagemdoperfil {
@@ -340,10 +342,6 @@ main p {
 
   #Redessociais1 {
     width: 25%;
-  }
-
-  .topo {
-    width: 1024px;
   }
 }
 
@@ -552,7 +550,6 @@ p {
   .guia {
     position: fixed;
     margin-top: 35px;
-    max-width: 100%;
   }
 }
 
@@ -566,14 +563,12 @@ p {
 @media (max-width: 375px) {
   .guia {
     position: fixed;
-    width: 100%;
   }
 }
 
 @media (max-width: 320px) {
   .guia {
     position: fixed;
-    max-width: 320px;
   }
 
   li {
@@ -622,22 +617,6 @@ p {
   }
 }
 
-@media (max-width: 375px) {
-  .topo {
-    width: 375px;
-  }
-
-  .guia {
-    width: 375px;
-  }
-}
-@media (max-width: 1024px) {
-  .guia {
-    width: 100%;
-    max-width: 1024px;
-  }
-}
-
 #soprave {
   padding-top: 11px;
 }
@@ -649,14 +628,6 @@ p {
 @media (max-width: 768px) {
   #Redessociais1 {
     width: 30%;
-  }
-
-  .guia {
-    width: 768px;
-  }
-
-  .topo {
-    width: 768px;
   }
 }
 
@@ -675,27 +646,11 @@ p {
   #Redessociais1 {
     width: 50%;
   }
-
-  .topo {
-    width: 425px;
-  }
-
-  .guia {
-    width: 425px;
-  }
 }
 
 @media (max-width: 320px) {
   #Redessociais1 {
     width: 70%;
-  }
-
-  .topo {
-    width: 320px;
-  }
-
-  .guia {
-    width: 320px;
   }
 }
 
