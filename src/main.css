@@ -1,10 +1,5 @@
 :root {
-  --gradient: linear-gradient(
-    to right,
-    #4cc9f0,
-    #f72585,
-    #60b99a
-  )
+  --gradient: linear-gradient(to right, #415a77, #0d1b2a, #415a77 )
 }
 
 body {
@@ -142,7 +137,7 @@ a#links:hover {
   -webkit-box-sizing: border-box;
   padding: 7px;
   border-radius: 8px;
-  background: linear-gradient(#4cc9f0, #f72585);
+  background: #6d7575;
   color: white;
   transition: 0.2s;
 }
@@ -814,13 +809,12 @@ dialog button {
 }
 
 ::-webkit-scrollbar-track {
-  background: linear-gradient( #1a2b2b, #453745);
+  background: rgb(11, 61, 77)
 }
 ::-webkit-scrollbar {
   width: 8px;
   background: #f72585;
 }
 ::-webkit-scrollbar-thumb {
-  background:linear-gradient(#b80090, #5cceee);
-  border-radius: 5px;
+  background: #19191b;
 }
