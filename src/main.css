@@ -526,7 +526,8 @@ main p {
 
 #Calcula {
   max-width: 270px;
-  max-height: 500px;
+  min-height: 129px;
+  max-height: 129px;
   transition: 0.2s all ease-in-out;
 }
 
