@@ -454,7 +454,7 @@ main p {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 270px;
+  width: 272px;
   height: 350px;
   align-items: center;
   font-size: 13px;
@@ -518,6 +518,15 @@ main p {
   margin-left: 45px;
   margin-top: 30px;
 }
+
+.linkprojetoGit {  background-color: rgb(80, 39, 134);
+  padding: 8px;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 170px;
+  color: azure;
+  margin-left: 45px;
+  margin-top: 30px;}
 
 #scala {
   overflow: hidden;
